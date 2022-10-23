@@ -5,11 +5,23 @@ public class adicionadoPasta {
 	private String nome;
 	private String sobrenome;
 	private String idade;
+	private String cidade;
 	
 	public String getNome() {
 		return nome;
 	}
 	
+	
+	public String getCidade() {
+		return cidade;
+	}
+
+
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
+	}
+
+
 	public String getIdade() {
 		return idade;
 	}
