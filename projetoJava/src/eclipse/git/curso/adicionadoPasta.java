@@ -6,11 +6,15 @@ public class adicionadoPasta {
 	private String sobrenome;
 	private String idade;
 	
+	
 	public String getNome() {
 		return nome;
 	}
 	
 	public String getIdade() {
+		return idade;
+	}
+	public String getIdade2() {
 		return idade;
 	}
 
